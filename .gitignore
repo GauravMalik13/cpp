@@ -1,0 +1,32 @@
+# Ignore everything
+*
+
+# Allow directories so Git can traverse them
+!*/
+
+# Allow C++ source files
+!*.cpp
+!*.cc
+!*.cxx
+!*.C
+
+# Allow header files
+!*.h
+!*.hpp
+
+# Allow the .gitignore itself
+!.gitignore
+
+# (Optional) Allow README or LICENSE files
+!README.md
+!LICENSE
+
+# (Optional) Explicitly ignore build outputs
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+build/
