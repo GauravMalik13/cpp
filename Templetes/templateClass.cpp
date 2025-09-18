@@ -5,8 +5,7 @@
 template <typename T>
 class Box {
     public:
-        T value;
-    
+        T value;   
 };
 
 //Alternative
@@ -19,7 +18,6 @@ class IntBox {          // Note that these classes are not used or can not be us
 class FloatBox {
     public:
     float value;
-
 };
 
 
